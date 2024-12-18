@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaFirstDbContext", "PatikaFirstDbContext.csproj", "{BB3EFCDF-DCA9-4285-BE1A-FD108B45EEA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{606A75FF-3734-43F7-B673-8077D70D7A90}"
+	ProjectSection(SolutionItems) = preProject
+		20241214152449_InitialCreate.cs = 20241214152449_InitialCreate.cs
+		20241214152449_InitialCreate.Designer.cs = 20241214152449_InitialCreate.Designer.cs
+		PatikaFirstDbContextModelSnapshot.cs = PatikaFirstDbContextModelSnapshot.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
